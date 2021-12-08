@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::task_96"
+msgid "Addon orders status"
+msgstr "Addon orders status"
+
+msgctxt "Addons::description::task_96"
+msgid "Descriptions (task_96)"
+msgstr "Descriptions"
