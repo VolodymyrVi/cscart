@@ -1,1 +1,0 @@
-<td><a class="row-status" href="{"orders.manage?user_id=`"|fn_url}"> {$user.orders_count} 121</a></td
