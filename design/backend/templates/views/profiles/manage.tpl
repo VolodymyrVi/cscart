@@ -19,6 +19,7 @@
 {$rev=$smarty.request.content_id|default:"pagination_contents"}
 
 {if $users}
+<h1>Test</h1>
     {capture name="profiles_table"}
         <div class="table-responsive-wrapper longtap-selection">
             <table width="100%" class="table table-middle table--relative table-responsive">
