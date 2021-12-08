@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /release-4.14.1/addons/master_products.po\n"
+"X-Crowdin-File-ID: 5587\n"
+"PO-Revision-Date: 2021-12-01 07:55\n"
+
+msgctxt "Addons::name::master_products"
+msgid "Common Products for Vendors"
+msgstr "المنتجات الشائعة للبائعين"
+
+msgctxt "Addons::description::master_products"
+msgid "Allows you to create a single product base: vendors choose which of the existing products they sell."
+msgstr "يسمح لك بإنشاء قاعدة منتج واحدة: يختار البائعون أي من المنتجات الحالية يبيعونها."
+
+msgctxt "SettingsSections::master_products::general"
+msgid "General"
+msgstr "عام"
+
+msgctxt "SettingsOptions::master_products::allow_vendors_to_create_products"
+msgid "Allow vendors to create products"
+msgstr "اسمح للبائعين بإنشاء منتجات"
+
+msgctxt "SettingsTooltips::master_products::allow_vendors_to_create_products"
+msgid "If you don't allow it, vendors will only be able to sell the products that you added to the marketplace."
+msgstr "إذا لم تسمح بذلك ، فسيتمكن البائعون فقط من بيع المنتجات التي أضفتها إلى السوق."
+
+msgctxt "Languages::master_products.vendor_products_tab_name"
+msgid "Sellers of this product"
+msgstr "باعة هذا المنتج"
+
+msgctxt "Languages::master_products.vendor_products_filling"
+msgid "Sellers of this product"
+msgstr "باعة هذا المنتج"
+
+msgctxt "Languages::master_products.vendor_products_block_name"
+msgid "Sellers of a product"
+msgstr "باعة المنتج"
+
+msgctxt "Languages::master_products.products_that_vendors_can_sell"
+msgid "Products that vendors can sell"
+msgstr "المنتجات التي يمكن للبائعين بيعها"
+
+msgctxt "Languages::master_products.products_being_sold"
+msgid "Products being sold"
+msgstr "المنتجات التي يتم بيعها"
+
+msgctxt "Languages::master_products.all_products"
+msgid "All products"
+msgstr "جميع المنتجات"
+
+msgctxt "Languages::master_products.add_product_from_catalog"
+msgid "Add product from catalog"
+msgstr "أضف المنتج من الكتالوج"
+
+msgctxt "Languages::master_products.create_new_product"
+msgid "Create new product"
+msgstr "إنشاء منتج جديد"
+
+msgctxt "Languages::master_products.sell_this"
+msgid "Sell this"
+msgstr "بيع هذا"
+
+msgctxt "Languages::master_products.for_sale"
+msgid "For sale"
+msgstr "للبيع"
+
+msgctxt "Languages::master_products.sell_selected"
+msgid "Sell selected"
+msgstr "بيع المحدد"
+
+msgctxt "Languages::master_products.products_were_added_to_your_products"
+msgid "[n] product was added to your products|[n] products were added to your products"
+msgstr "[n] تمت إضافة منتج إلى منتجاتك | تمت إضافة [n] من المنتجات إلى منتجاتك"
+
+msgctxt "Languages::master_products.master_product"
+msgid "Common product"
+msgstr "منتج مشترك"
+
+msgctxt "Languages::master_products.all_vendors_master_product"
+msgid "All vendors (common product)"
+msgstr "جميع البائعين (المنتج المشترك)"
+
+msgctxt "Languages::master_products.exported_products"
+msgid "Products to export"
+msgstr "منتجات للتصدير"
+
+msgctxt "Languages::master_products.price_from"
+msgid "From [formatted_price]"
+msgstr "من [formatted_price]"
+
+msgctxt "Languages::master_products.product_type.offer"
+msgid "Vendor offer"
+msgstr "عرض البائع"
+
+msgctxt "Languages::master_products.upgrade_notification.title"
+msgid "Common Products for Vendors: Add-on now works only with global options"
+msgstr "المنتجات الشائعة للبائعين: تعمل الوظيفة الإضافية الآن مع الخيارات العامة فقط"
+
+msgctxt "Languages::master_products.upgrade_notification.message"
+msgid "<p>For technical reasons, the <b>[master_product_addon]</b> add-on works only with global options now. If any vendor sells a common product, then we have already converted all options from that product into global options during the upgrade.</p>"
+msgstr "<p> لأسباب فنية ، تعمل الوظيفة الإضافية <b> [master_product_addon] </b> فقط مع الخيارات العامة الآن. إذا قام أي بائع ببيع منتج مشترك ، فعندئذٍ قمنا بالفعل بتحويل جميع الخيارات من هذا المنتج إلى خيارات عالمية أثناء الترقية. </p>"
+
+msgctxt "Languages::master_products.view_product_offers"
+msgid "See all offers"
+msgstr "مشاهدة جميع العروض"
+
+msgctxt "Languages::master_products.product_type.offer_variation"
+msgid "Vendor variation offer"
+msgstr "عرض تنوع البائع"
+
+msgctxt "Languages::master_products.resave_after_show_out_of_stock_products_changed"
+msgid "You've changed the <b>Show out of stock products</b> setting. Please export <a href=\"[url]\">all your catalog items</a> (use \"Export found products\" in the gear button) and reimport them. This will ensure that the displayed price of common products will always remain correct until you change the setting again."
+msgstr "لقد قمت بتغيير إعداد <b> إظهار المنتجات غير المتوفرة بالمخزون </b>. الرجاء تصدير <a href=\"[url]\"> جميع عناصر الكتالوج </a> (استخدم \"تصدير المنتجات التي تم العثور عليها\" في زر الترس) وإعادة استيرادها. سيضمن هذا أن السعر المعروض للمنتجات الشائعة سيظل دائمًا صحيحًا حتى تقوم بتغيير الإعداد مرة أخرى."
+
+msgctxt "Languages::master_products.save_up_to"
+msgid "Save up to"
+msgstr "يدخر لك"
+
+msgctxt "Languages::master_products.buy_together_info_message_for_admin"
+msgid "Only vendors can add product combinations. To add a combination for a common product, first log in as one of the vendors that sell it."
+msgstr "يمكن للبائعين فقط إضافة مجموعات المنتجات. لإضافة مجموعة لمنتج مشترك ، قم أولاً بتسجيل الدخول كأحد البائعين الذين يبيعونه."
+
+msgctxt "Languages::master_products.buy_together_info_message_for_vendor"
+msgid "To add a combination for a common product, <a class=\"cm-post\" href=\"[href]\">start selling it</a> first."
+msgstr "لإضافة مجموعة لمنتج مشترك، <a class=\"cm-post\" href=\"[href]\"> ابدأ في بيعه </a> أولا."
+
+msgctxt "Languages::master_products.changing_owner_is_not_available"
+msgid "Couldn't change the owner of the product because some vendors still sell it. Please delete <a href=\"[vendors_offers_link]\" target=\"_blank\">vendors' offers</a> before changing the owner of this product."
+msgstr ""
+
+msgctxt "Languages::master_products.product_bundles_info"
+msgid "Only vendors can add product bundles. To add a bundle for a common product, first log in as one of the vendors that sell it."
+msgstr ""
+

@@ -1,0 +1,66 @@
+// Header: Line 3
+@media (min-width: @TabletBreakpoint + 1) {
+    .nav__actions {
+        top: 0;
+        margin: 0;
+        padding: 6px 0;
+        position: sticky;
+        height: auto;
+        max-width: none;
+        box-shadow: none;
+        border: 0;
+    }
+
+    .actions__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav__actions-title {
+        overflow-x: hidden;
+        float: none;
+        width: 100%;
+
+        && {
+            padding: 0;
+            height: auto;
+            max-width: none;
+        }
+    }
+
+    .title__heading {
+        && {
+            max-width: none;
+            font-size: 30px;
+            font-weight: bold;
+            line-height: normal;
+        }
+    }
+
+    .btn-bar-left {
+        && {
+            padding: 0;
+            height: auto;
+            float: none;
+        }
+    }
+
+    .nav__actions-bar {
+        display: flex;
+        flex-shrink: 0;
+        margin: 0;
+        float: none;
+        
+        &&& {
+            position: static;
+            right: auto;
+            padding: 0;
+        }
+    }
+
+    // Remover border from action buttons
+    .nav__actions .btn:not(.btn-primary):not(:hover) {
+        border-color: transparent;
+    }
+}

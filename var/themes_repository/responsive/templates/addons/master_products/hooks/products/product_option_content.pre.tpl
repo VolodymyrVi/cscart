@@ -1,0 +1,1 @@
+<input type="hidden" name="product_id" value="{$product.product_id}" />
